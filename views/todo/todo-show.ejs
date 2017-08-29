@@ -1,0 +1,19 @@
+<% include ../partials/boilerplate %>
+
+
+
+  <div class="todo-show">
+    <h2><%= todo.title %></h2>
+    <h3>Status: <%= todo.status %> <h3>
+    <p>Description: <%= todo.description %> </p>
+    <a href="/todo/<%=todo.id%>/edit">Edit</a>
+    <form class="delete" action="/todo/<%=todo.id%>?_method=DELETE" method="POST">
+    <input type="submit" value="Delete it!"/>
+    </form>
+  </div>
+<div class="back-div">
+<a href="/todo">Back to Page</a>
+</div>
+
+<% include ../partials/footer %>
+<% include ../partials/end %>

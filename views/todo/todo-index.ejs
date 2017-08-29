@@ -1,0 +1,25 @@
+<% include ../partials/boilerplate %>
+<div class="todo-index">
+<a href="/todo/new">Add a new To-Do!</a>
+</div>
+<div class="main-index">
+<% todo.forEach(todo => { %>
+
+  <div class="title-index">
+    <h3><%= todo.title %></h3>
+    <p> <%= todo.status %> </p>
+  </div>
+  <div class="category-index">
+    <p> <%= todo.category %> </p>
+    <a href="/todo/<%=todo.id%>">INFO</a>
+    <a href="/todo/<%=todo.id%>/edit">Edit</a>
+    <form class="delete" action="/todo/<%=todo.id%>?_method=DELETE" method="POST">
+    <input type="submit" value="Delete it!"/>
+    </form>
+  </div>
+
+<% }) %>
+</div>
+
+<% include ../partials/footer %>
+<% include ../partials/end %>

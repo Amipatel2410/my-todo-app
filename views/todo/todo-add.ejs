@@ -1,0 +1,19 @@
+<% include ./partials/boilerplate %>
+
+
+<form method="POST" action="/todo">
+<fieldset>
+  <legend> ADD NEW TODO!  </legend>
+  <input type="text" name="title" placeholder="Title" />
+  <input type="number" name="category" placeholder="category" />
+  <textarea class="noscrollbars" placeholder="description"></textarea>
+  <input type="submit" value="Submit" />
+</fieldset>
+
+</form>
+
+
+
+
+<% include ../partials/footer %>
+<% include ./partials/end %>

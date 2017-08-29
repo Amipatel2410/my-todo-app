@@ -1,0 +1,220 @@
+body{
+  margin: 0 auto;
+  max-width: 900px;
+  height: 1000px;
+  }
+
+.first {
+  height: 400px;
+  width: 450px;
+  position: absolute;
+  left: 450px;
+  top: 200px;
+}
+.first a{
+  text-decoration: none;
+  position: relative;
+  left: 150px;
+}
+ul a{
+  text-decoration: none;
+  color: black;
+}
+ul a:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+ul {
+  display: Inline-flex;
+  margin-bottom: 50px;
+  float: right;
+  text-decoration: none;
+}
+
+ul li {
+  padding: 15px;
+  margin: 5px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.footer{
+  wigth: 900px;
+  hight: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 550px;
+}
+.footer p{
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+.main-index{
+  height: 900px;
+  width: 300px;
+  position: relative;
+  top: 100px;
+
+}
+
+.title-index{
+  height: 40px;
+  width: 350px;
+  line-height:5px;
+  border: 1px solid black;
+
+}
+
+.title-index p{
+
+  float: right;
+  position: relative;
+  bottom: 40px;
+}
+
+.category-index{
+  height: 40px;
+  width: 350px;
+  border: 1px solid black;
+
+
+}
+.category-index p{
+  font-size: 17px;
+  line-height: 5px;
+}
+.category-index a{
+  text-decoration: none;
+  float: right;
+  padding: 3px;
+  position: relative;
+  bottom: 35px;
+  color: black;
+  border: 1px solid black;
+  margin: 5px;
+}
+.category-index a:hover{
+  color: pink;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  position: relative;
+  left: 155px;
+  bottom: 35px;
+  border: 1px solid black;
+  font-size: 15px;
+  background-color: white;
+  margin: 5px;
+}
+
+
+.todo-index{
+  height: 50px;
+  width: 200px;
+}
+.todo-index a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  position: relative;
+  top: 100px;
+}
+
+.todo-show{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 150px;
+}
+.todo-show input[type="submit"]{
+  position: relative;
+  left: 110px;
+}
+
+.todo-show a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  position: relative;
+  left: 200px;
+  bottom: 5px;
+  padding: 5px;
+}
+.todo-show a:hover{
+  cursor: pointer;
+  color: pink;
+}
+
+.back-div a{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 290px;
+  left: 480px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.back-div a:hover{
+  cursor: pointer;
+  color: pink;
+}
+.todo-edit{
+  height: 500px;
+  width: 150px;
+  position: absolute;
+  top: 100px;
+}
+
+.todo-edit input[type=text]{
+  font-size: 15px;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.todo-edit label{
+  font-size: 20px;
+  font-weight: bold;
+}
+.todo-edit textarea{
+  font-size: 15px;
+  width: 180px;
+  height:auto;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.todo-edit input[type="submit"]{
+  position: relative;
+  top: 0px;
+  left: 170px;
+}
+
+.todo-edit a{
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding: 2px;
+  position:relative;
+  left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

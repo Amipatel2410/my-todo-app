@@ -1,0 +1,25 @@
+
+<% include ../partials/boilerplate %>
+
+
+<div class="todo-edit">
+<form action="/todo/<%= todo.id %>?_method=PUT" method="POST">
+  <label>Title: </label>
+  <input type="text" name="title" value="<%= todo.title %>" />
+  <label>Category:</label>
+  <input type="text" name="category" value="<%= todo.category %>" />
+  <label>Description:</label>
+  <input type="text" name="description" value="<%= todo.description %>" />
+<textarea name="textarea" rows="10" cols="50" placeholder="description" ></textarea>
+  <label>Status:</label>
+  <input type="text" name="status" value="<%= todo.status %>" />
+  <div class="form-group" id="st">
+<label class="radio-inline"><input type="radio" name="optradio" value="1">Todo</label>
+<label class="radio-inline"><input type="radio" name="optradio" value="0">Done</label>
+</div>
+  <input type="submit" value="Save" />
+  <a href="/todo"> Back to Page </a>
+</form>
+</div>
+<% include ../partials/footer %>
+<% include ../partials/end %>

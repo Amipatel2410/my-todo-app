@@ -1,0 +1,33 @@
+# Mac OS X
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.VolumeIcon.icns
+.icns
+.fseventsd
+.Trash
+.Trashes
+.TemporaryItems
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Node
+node_modules/
+
+package-lock.json
+
+.env
+
+
